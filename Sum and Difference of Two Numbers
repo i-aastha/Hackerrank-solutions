@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a,b;
+    float c,d;
+    scanf("%d %d",&a,&b);
+    scanf("%f %f",&c,&d);
+    int sum=0;
+    int sum1=0;
+    float sum2=0;
+    float diff=0;
+    sum=a+b;
+    sum1=a-b;
+    sum2=c+d;
+    diff=c-d;
+    printf("%d %d\n",sum,sum1);
+    printf("%.1f %.1f",sum2,diff);
+    return 0;
+}
